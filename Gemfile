@@ -5,9 +5,11 @@ ruby '2.6.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
+#Code from odin below
 group :development, :test do
   gem 'sqlite3'
 end
+
 group :production do
   gem 'pg'
 end
